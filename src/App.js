@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import Titulo from './Titulo';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload!!!!!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      <Titulo/>
+      {/* <img src={logo} className="App-logo" alt="logo" />
+      Si el archivo está en /public la ruta se tiene que escribir como si nosotros
+      estuvieramos en /public también
+      */}
+      <img src="imagenes/imagengatito.jpg" alt="Gatito" />
     </div>
   );
 }
